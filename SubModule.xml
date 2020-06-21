@@ -1,0 +1,24 @@
+﻿<Module>
+  <Name value="Unlimited Mercenary Clans"/>
+  <Id value="UnlimitedMercenaryClans"/>
+  <Version value="v1.0.0"/>
+  <SingleplayerModule value="true"/>
+  <MultiplayerModule value="false"/>
+  <DependedModules>
+    <DependedModule Id="Native"/>
+    <DependedModule Id="SandBoxCore"/>
+    <DependedModule Id="Sandbox"/>
+  </DependedModules>
+  <SubModules>
+    <SubModule>
+      <Name value="UnlimitedMercenaryClans"/>
+      <DLLName value="UnlimitedMercenaryClans.dll"/>
+      <SubModuleClassType value="UnlimitedMercenaryClans.SubModule"/>
+      <Tags>
+        <Tag key="DedicatedServerType" value="none" />
+        <Tag key="IsNoRenderModeElement" value="false" />
+      </Tags>
+    </SubModule>
+  </SubModules>
+  <Xmls/>
+</Module>
